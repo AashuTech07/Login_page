@@ -1,0 +1,87 @@
+/* Styling for the login page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 20px 30px;
+    padding-right: 50px;
+    border-radius: 18px;
+    box-shadow: gray;
+    width: 100%;
+    border: solid 1px rgb(160, 158, 155);
+  }
+  
+  .login-card h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    border-color: #74ebd5;
+    outline: none;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background: #74ebd5;
+    border-radius: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background: #ffffff;
+  }
+  
+  .error-msg {
+    color: #ff5252;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .success-msg {
+    color: #4caf50;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
